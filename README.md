@@ -36,6 +36,30 @@ Created dashboard highlights key movie rating insights such as:
 
 ---
 
+##  Step-by-Step Instructions
+
+1. **Prepare the Data**  
+   - Download MovieLens dataset (ml-20m)  
+   - Upload CSV files to an Amazon S3 bucket
+
+2. **Set Up Snowflake**  
+   - Create roles, users, and warehouse  
+   - Create raw tables and load data from S3  
+   - Clean and stage data
+
+3. **Use dbt for Transformation**  
+   - Create staging models for raw data  
+   - Build dimension and fact models  
+   - Create analytics models with tests and documentation  
+   - Run and compile dbt project
+
+4. **Build the Dashboard in Power BI**  
+   - Connect to Snowflake  
+   - Create visuals for average ratings, genres, tags, rating categories  
+   - Add KPIs and interactive filters  
+   - Customize layout and design
+
+---
 
 ##  Skills Demonstrated
 
