@@ -1,39 +1,45 @@
+# 🎬 MovieLens Analytics Pipeline
 
-🎬 MovieLens Analytics Pipeline
-This project builds a complete data pipeline to analyze movie ratings using the MovieLens 20M dataset. It covers the full lifecycle from data ingestion to interactive dashboards.
+This project showcases a complete end-to-end data analytics pipeline for analyzing movie ratings using the [MovieLens](https://grouplens.org/datasets/movielens/) dataset.
 
- Tools & Technologies
-Snowflake – Cloud data warehouse to store raw and transformed data
+---
 
-dbt (Data Build Tool) – For data transformation, modeling, and testing
+## 🛠️ Tools & Technologies
 
-Amazon S3 – Cloud storage for staging raw CSV files
+- **Amazon S3** – Storing raw CSV files  
+- **Snowflake** – Cloud data warehouse for raw and transformed data  
+- **dbt** – Data modeling, transformation, testing, and documentation  
+- **Power BI** – Interactive dashboards and visualization
 
-Power BI – To create interactive dashboards and insights
+---
 
- Pipeline Overview
-This diagram illustrates the full pipeline:
+##  Pipeline Workflow
+
+1. **Extract** – Upload raw data files to Amazon S3  
+2. **Load** – Ingest raw data into Snowflake  
+3. **Transform** – Use dbt to build staging, fact, and dimension models  
+4. **Visualize** – Connect Power BI to Snowflake for insightful analysis
+
+---
+
+##  Sample Dashboard Output
+
+Created dashboard highlights key movie rating insights such as:
+
+- Average ratings
+- Rating distribution
+- Genre popularity
+- Tags used by users
+- Rating categories based on score
 
 
-Extract: Raw data files are stored in Amazon S3
 
-Load: Data is loaded into Snowflake tables
-
-Transform: dbt transforms raw data into clean, analysis-ready models
-
-Visualize: Power BI connects directly to Snowflake for dashboard creation
-
- Sample Dashboard Output
-This dashboard showcases key movie insights including average ratings, total reviews, genre distribution, and rating categories.
+---
 
 
+##  Skills Demonstrated
 
-
-💡 Key Skills Demonstrated
-- SQL (Structured Query Language)
-
-- Data Modeling with dbt
-
-- Cloud Data Warehousing with Snowflake
-
-- Data Visualization using Power BI
+- SQL (Structured Query Language)  
+- Data Modeling using dbt  
+- Cloud Data Warehousing with Snowflake  
+- Dashboarding and Visualization using Power BI  
